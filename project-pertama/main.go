@@ -11,5 +11,6 @@ func main() {
 	// vargo.Varmit()
 	// vargo.Vargoif()
 	// vargo.Loopgo()
-	vargo.Arraygo()
+	// vargo.Arraygo()
+	vargo.Funcgo()
 }
