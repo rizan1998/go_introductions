@@ -106,6 +106,13 @@ func Funcgo() {
 
 	fmt.Println("filter jumlah huruf \"5\"\t:", dataLenght5)
 	// filter jumlah huruf "5" : [jason ethan]
+
+	// contoh penulisan lain agar tidak lebih panjang
+	// 	type FilterCallback func(string) bool
+
+	// func filter(data []string, callback FilterCallback) []string {
+	//     // ...
+	// }
 }
 
 func filter(data []string, callback func(string) bool) []string {
